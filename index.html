@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Mi curso javaScript</h1>
+   
+   <div >
+    <p>Este es mi primer parrafo</p>
+    <p>Este es mi segundo parrafo</p>
+    <p>Este es mi tercer parrafo</p>
+    <button type="button" onclick="azulbutton()">cambiar color a azul</button>
+   </div>
+
+   
+    <h1>Ejercicio 2:Formulario con alerta</h1>
+      <form>
+        <label for="textoo">Ingresa un texto:</label>
+        <input id="textoo" type="text">
+        <button type="button"  onclick="alerta()">Mostrar Alerta</button>
+      </form>
+    <h1>Ejercicio 1 :Lista con elementos</h1>
+    <ul>
+      <li>Elemento1</li>
+      <li>Elemento2</li>
+      <li>Elemento3</li>
+      <li>Elemento4</li>
+    </ul> 
+    <h1>Ejercicio 2:campo de texto y botones</h1>
+    <form>
+      <input id="texto3" type="text">
+      <button type="button" onclick="deshabilitarCampo()">deshabilitar campo</button>
+      <button type="button" onclick="habilitarCampo()">habilitar campo</button>
+    </form>
+    <h3>LocalStorage</h3>
+    <form>
+      <label for="email" >Correo Electronico</label>
+      <input id="email" type="text">
+      <button type="button" onclick="guardar()">Guardar Correo</button>
+      <button type="button" onclick="eliminar()">Eliminar Correo Guardado</button>
+    </form>
+
+    <div id="app"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
